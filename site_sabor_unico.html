@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor Único</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset-css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Menu Fixo -->
+    <header>
+        <div class="container-social-header">
+            <div class="social-header">
+                <i class="fa-brands fa-facebook fa-xl"></i>
+            </div>
+            <div class="social-header">
+                <i class="fa-brands fa-instagram fa-xl"></i>
+            </div>
+            <div class="social-header">
+                <i class="fa-brands fa-twitter fa-xl"></i>
+            </div>
+            <div class="social-header">
+                <i class="fa-brands fa-tiktok fa-xl"></i>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <img class="img-logo" src="public/logo-sabor-sude.png" alt="">
+            </div>
+            <div class="container-navbar-lista">
+                <ul class="navbar-list">
+                    <li class="item-navbar"><a href="#home">Home</a></li>
+                    <li class="item-navbar"><a href="#sobre">Sobre</a></li>
+                    <li class="item-navbar"><a href="#produtos">Produtos</a></li>
+                    <li class="item-navbar"><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Seção Home -->
+        <section id="home" class="section home">
+            <div class="text">
+                <h1>Bem-vindo à Sabor Único</h1>
+                <p>Descubra o melhor da gastronomia artesanal.</p>
+            </div>
+            <div class="image"><img src="imagem_home.jpg" alt="Imagem Home"></div>
+        </section>
+        <!-- Seção Sobre -->
+        <section id="sobre" class="section about">
+            <div class="image"><img src="imagem_sobre.jpg" alt="Imagem Sobre"></div>
+            <div class="text">
+                <h2>Sobre Nós</h2>
+                <p>Nossa história e missão de levar qualidade e sabor à sua mesa.</p>
+            </div>
+        </section>
+        <!-- Seção Produtos -->
+        <section id="produtos" class="section products">
+            <div class="text">
+                <h2>Nossos Produtos</h2>
+                <p>Conheça alguns de nossos principais produtos artesanais.</p>
+            </div>
+            <div class="gallery">
+                <img src="produto1.jpg" alt="Produto 1">
+                <img src="produto2.jpg" alt="Produto 2">
+                <img src="produto3.jpg" alt="Produto 3">
+            </div>
+        </section>
+        <!-- Seção Contato -->
+        <section id="contato" class="section contact">
+            <h2>Contato</h2>
+            <form>
+                <input type="text" name="nome" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h2>Sobre Nós</h2>
+                <p>Informações sobre a empresa, missão e valores.</p>
+            </div>
+            <div class="footer-section">
+                <h2>Links Úteis</h2>
+                <ul>
+                    <li><a href="/sobre" title="Saiba mais sobre nós">Sobre</a></li>
+                    <li><a href="/contato" title="Entre em contato conosco">Contato</a></li>
+                    <li><a href="/politica-privacidade" title="Leia nossa política de privacidade">Política de Privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h2>Redes Sociais</h2>
+                <ul>
+                    <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer" title="Visite nossa página no Facebook">Facebook</a></li>
+                    <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer" title="Visite nossa página no Twitter">Twitter</a></li>
+                    <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" title="Visite nossa página no Instagram">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Sua Empresa. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
